@@ -13,6 +13,7 @@ if __name__ == '__main__':
             ytrn+1, ytst+1
     print Xtrn.shape, ytrn.shape, Xtst.shape, ytst.shape
     print np.unique(ytrn)
+    print 'small change'
 
     sp = KPerceptron(kerntype='poly',kerngamma=1)
     for e in xrange(50):
